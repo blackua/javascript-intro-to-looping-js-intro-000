@@ -10,7 +10,7 @@ function whileLoop(n){
     if (n >= 0) {
       console.log(n)
     } else if (n < 0) {
-      console.log('done')
+      return console.log('done')
     }
   n -= 1
   }
