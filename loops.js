@@ -9,9 +9,9 @@ function whileLoop(n){
   while (n >= -1) {
     if (n >= 0) {
       console.log(n)
-      n -= 1
     } else if (n < 0) {
       console.log('done')
     }
+  n -= 1
   }
 }
